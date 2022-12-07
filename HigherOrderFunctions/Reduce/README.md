@@ -1,19 +1,19 @@
 # reduce(_:_:)
 
-[Array > reduce(_:_:)](https://developer.apple.com/documentation/swift/array/2298686-reduce)
+[Array > reduce(_:_:)](https://developer.apple.com/documentation/swift/array/reduce(_:_:))
 
-[Dictionary > reduce(_:_:)](https://developer.apple.com/documentation/swift/dictionary/2295354-reduce)
+[Dictionary > reduce(_:_:)](https://developer.apple.com/documentation/swift/dictionary/reduce(_:_:))
 
-[Set > reduce(_:_:)](https://developer.apple.com/documentation/swift/set/2293824-reduce)
+[Set > reduce(_:_:)](https://developer.apple.com/documentation/swift/set/reduce(_:_:))
 
 Returns the result of combining the elements of the sequence using the given closure.
 
 # reduce(into:_:)
 
-[Array > reduce(into:_:)](https://developer.apple.com/documentation/swift/array/3126956-reduce)
+[Array > reduce(into:_:)](https://developer.apple.com/documentation/swift/array/reduce(into:_:))
 
-[Dictionary > reduce(into:_:)](https://developer.apple.com/documentation/swift/dictionary/3127177-reduce)
+[Dictionary > reduce(into:_:)](https://developer.apple.com/documentation/swift/dictionary/reduce(into:_:))
 
-[Set > reduce(into:_:)](https://developer.apple.com/documentation/swift/set/3128854-reduce)
+[Set > reduce(into:_:)](https://developer.apple.com/documentation/swift/set/reduce(into:_:))
 
 Returns the result of combining the elements of the sequence using the given closure.
