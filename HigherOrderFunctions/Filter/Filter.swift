@@ -31,7 +31,7 @@ class Client {
 // ["Kim", "Karl"]
 
 // Client().runDictionary()
-// [4: "Karl", 3: "Kim"]
+// [3: "Kim", 4: "Karl"]
 
 // Client().runSet()
-// ["Karl", "Kim"]
+// ["Kim", "Karl"]
