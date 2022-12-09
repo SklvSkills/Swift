@@ -5,14 +5,14 @@
 import UIKit
 
 class Client {
-    let toggleSwitch = UISwitch()
+    static let toggleSwitch = UISwitch()
     
     func run() {
-        toggleSwitch.isOn = true
+        Client.toggleSwitch.isOn = true
         
         DispatchQueue.global(qos: .background).asyncAfter(deadline: .now() + .seconds(5)) {
             DispatchQueue.main.async {
-                toggleSwitch.setOn(false, animated: true)
+                Client.toggleSwitch.setOn(false, animated: true)
             }
         }
     }
