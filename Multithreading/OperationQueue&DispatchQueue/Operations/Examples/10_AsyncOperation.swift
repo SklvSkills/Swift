@@ -87,7 +87,7 @@ class GetURL: AsyncOperation {
 
 class Client {
     func run() {
-        guard let getUrl = GetURL("http://www.apple.com") else { return }
+        guard let getUrl = GetURL("https://www.apple.com") else { return }
         
         getUrl.completionBlock = {
             print("Done")
