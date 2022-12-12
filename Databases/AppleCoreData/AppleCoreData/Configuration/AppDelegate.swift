@@ -6,7 +6,7 @@
 import UIKit
 
 @main
-class AppDelegate: UIResponder {
+class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     private var privateCoreDataStack: CoreDataStack?
 }
@@ -34,7 +34,7 @@ extension AppDelegate {
 
 // Terminate
 
-extension AppDelegate: UIApplicationDelegate {
+extension AppDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         coreDataStack.saveContext()
     }
